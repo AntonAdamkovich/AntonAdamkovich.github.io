@@ -1,0 +1,110 @@
+header {
+  background-color: #232323; }
+
+.header-wrapper {
+  margin: 0 2%; }
+  .header-wrapper form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .header-wrapper form div {
+      margin: 10px 0; }
+      .header-wrapper form div input[type=text] {
+        height: 30px;
+        padding: 0 10px;
+        color: rgba(255, 255, 255, 0.882353);
+        border: 1px solid rgba(255, 255, 255, 0.882353);
+        outline: none;
+        background-color: #000000;
+        font-size: 17px; }
+        .header-wrapper form div input[type=text]:focus {
+          border: 1px solid #167ac6; }
+      .header-wrapper form div button {
+        width: 65px;
+        height: 32px;
+        border: none;
+        outline: none;
+        background-color: #f8f8f8; }
+        .header-wrapper form div button:hover {
+          background-color: #f0f0f0; }
+
+main {
+  margin: 0 3%; }
+
+.content ul {
+  display: grid;
+  overflow: scroll;
+  height: 80vh;
+  padding: 0;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, 244px);
+  /*minmax(320px, 320px)*/ }
+  .content ul li {
+    width: 244px;
+    list-style-type: none; }
+    .content ul li img {
+      width: 240px; }
+
+.item {
+  min-height: 310px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff; }
+  .item:hover {
+    border: 2px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+  .item p {
+    margin-top: 0; }
+  .item footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5px; }
+  .item figure {
+    margin: 0; }
+    .item figure figcaption p {
+      overflow: hidden;
+      max-height: 50px; }
+    .item figure figcaption span {
+      text-align: center; }
+    .item figure figcaption h1 {
+      overflow: hidden;
+      max-height: 30px;
+      text-align: center; }
+      .item figure figcaption h1:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+      .item figure figcaption h1 a {
+        text-decoration: none;
+        color: #167ac6;
+        font-size: 20px; }
+
+body > footer {
+  height: 50px;
+  background-color: #232323; }
+
+.hidden {
+  display: none; }
+
+.active {
+  background-color: #167ac6; }
+
+.pagination {
+  display: flex;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  text-align: center; }
+  .pagination li {
+    width: 36px;
+    height: 36px;
+    margin: 5px 10px;
+    border: 2px solid #808080;
+    color: #ffffff;
+    line-height: 40px; }
+
+body {
+  margin: 0px;
+  background-color: #808080; }
+
+/*# sourceMappingURL=style.css.map*/
